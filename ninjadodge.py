@@ -13,10 +13,10 @@ pygame.display.set_caption('Ninja Dodge')
 BLACK = (0,0,0)
 
 player = pygame.Rect(300, 400, 40, 40)
-playerImg = pygame.image.load('ninja.png')
+playerImg = pygame.image.load('img/ninja.png')
 playerStretchedImg = pygame.transform.scale(playerImg, (40, 40))
-platformImg = pygame.image.load('star.png')
-background = pygame.image.load('bg.png')
+platformImg = pygame.image.load('img/star.png')
+background = pygame.image.load('img/bg.png')
 backgroundRect = pygame.Rect(0, 0, WINDOWWIDTH, WINDOWHEIGHT)
 
 moveLeft = False
